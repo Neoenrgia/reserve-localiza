@@ -2,7 +2,7 @@ import React from 'react';
 import { FileText, DollarSign, MessageCircle, Zap, Shield, Clock, Users } from 'lucide-react';
 
 function App() {
-  const whatsappUrl = 'https://w.app/grcsqh';
+  const whatsappUrl = 'https://wa.me/5531996384549?text=Ol%C3%A1%2C%20desejo%20atendimento%20';
 
   const handleButtonClick = (buttonType: string) => {
     const message = encodeURIComponent(`Olá! Gostaria de informações sobre: ${buttonType}`);
